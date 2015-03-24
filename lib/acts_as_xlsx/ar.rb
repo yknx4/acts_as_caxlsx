@@ -84,7 +84,7 @@ module Axlsx
           data.each do |r|
             row_data = columns.map do |c|
               if c.to_s =~ /\./
-                v = r; c.to_s.split('.').each { |method| v = v.send(method) }; v
+                v = r; c.to_s.split('.').each { |method| !v.nil? ? v = v.send(method) : v = ""; }; v
               else
                 r.send(c)                
               end
