@@ -1,11 +1,11 @@
 require File.expand_path(File.dirname(__FILE__) + '/lib/acts_as_xlsx/version.rb')
 
 Gem::Specification.new do |s|
-  s.name        = 'acts_as_xlsx'
+  s.name        = 'acts_as_caxlsx'
   s.version     =  Axlsx::Ar::VERSION
-  s.author	= "Randy Morgan"
-  s.email       = 'digital.ipseity@gmail.com'
-  s.homepage 	= 'https://github.com/randym/acts_as_xlsx'
+  s.authors	= ["Randy Morgan", "Noel Peden"]
+  s.email       = 'noel@peden.biz'
+  s.homepage 	= 'https://github.com/caxlsx/acts_as_caxlsx'
   s.platform    = Gem::Platform::RUBY       	     	  
   s.date        = Time.now.strftime('%Y-%m-%d')
   s.summary     = "ActiveRecord support for Axlsx"
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.files = Dir.glob("{lib/**/*}") + %w{ LICENSE README.md Rakefile CHANGELOG.md .yardopts }
   s.test_files  = Dir.glob("{test/**/*}")
 
-  s.add_runtime_dependency 'axlsx', '>= 1.0.13'
+  s.add_runtime_dependency 'caxlsx', '>= 3.0.0'
   s.add_runtime_dependency 'activerecord', '>= 2.3.9'
   s.add_runtime_dependency 'i18n', '>= 0.4.1'
   
