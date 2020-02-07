@@ -1,7 +1,14 @@
 # Acts as XLSX
 
-[![Build Status](https://secure.travis-ci.org/randym/acts_as_xlsx.png)](http://travis-ci.org/randym/acts_as_xlsx/)
+[![Build Status](https://secure.travis-ci.org/caxlsx/acts_as_caxlsx.png)](http://travis-ci.org/caxlsx/acts_as_caxlsx/)
 
+## Notice: Community Axlsx Organization
+
+To better maintain the Axlsx ecosystem, all related gems have been forked or moved to the following community organization: 
+
+http://github.com/caxlsx
+
+[Join the Caxlsx Slack channel](https://join.slack.com/t/caxlsx/shared_invite/enQtOTI5OTM0MzI1Njk5LTBlMDQzNDk2YzkwODMxMmVkODMyYzJiZGU5NTQ3YTg5NTBlN2IwZTlmNTRjNzhiY2E0MDY2OTEyYmFlODI5NjA)
 
 ## Synopsis
 
@@ -33,7 +40,7 @@ Acts_as_xlsx is an active record plugin for automatic Office Open XML Spreadshee
 To install, add the following to your Gemfile:
 
 ```ruby
-gem 'acts_as_xlsx'
+gem 'acts_as_xlsx', git: 'https://github.com/caxlsx/acts_as_xlsx.git'
 ```
 
 
