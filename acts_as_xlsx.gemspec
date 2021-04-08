@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.test_files  = Dir.glob("{test/**/*}")
 
   s.add_runtime_dependency 'caxlsx', '>= 3.0.0'
-  s.add_runtime_dependency 'activerecord', '>= 2.3.9'
+  s.add_runtime_dependency 'activerecord', '>= 3.0'
   s.add_runtime_dependency 'i18n', '>= 0.4.1'
   
   s.required_ruby_version = '>= 1.8.7'
