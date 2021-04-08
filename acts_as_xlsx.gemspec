@@ -21,6 +21,6 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'activerecord', '>= 3.0'
   s.add_runtime_dependency 'i18n', '>= 0.4.1'
   
-  s.required_ruby_version = '>= 1.8.7'
+  s.required_ruby_version = '>= 2.3'
   s.require_path = 'lib'
 end
